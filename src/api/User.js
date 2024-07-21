@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BACKEND_ORIGIN_URL = 'job-finder-backend-api.vercel.app';
+const BACKEND_ORIGIN_URL = 'https://job-finder-api-mocha.vercel.app';
 
 const Login = async (email, password) => {
     try {
